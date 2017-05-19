@@ -1,5 +1,8 @@
 # JSPieChart
 This is pie Chart from pure JS. 
+
+![Alt text](/piechart.jpg?raw=true "Optional Title")
+
 Import the JS file and Use function  "pieChart(values,section,canvasname,colors)" where 
 
 1) values are actual values in form of array 
