@@ -1,7 +1,7 @@
 # JSPieChart
 This is pie Chart from pure JS. 
 
-![Alt text](/piechart.jpg?raw=true "Optional Title")
+![Alt text](/piechart.png?raw=true "Optional Title")
 
 Import the JS file and Use function  "pieChart(values,section,canvasname,colors)" where 
 
