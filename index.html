@@ -1,0 +1,94 @@
+
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="pie.js"></script>
+  <style>
+      .infocard
+      {
+        height:100%;
+        background-color:gray;
+        color:inherit;
+      }
+  </style>
+
+  </head>
+<body>
+
+
+<div class="container">
+<!--***********************************************Analyitcs1*****************************************************************-->
+         <hr>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>JS Pie chart [Beta] 1.0 </th>
+      </tr>
+      <tr>
+        <th>Upcoming version 1.1, interactive webbsite for live changes and improvement in function parameters and appearance. </th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+        <td>
+
+        <div class=jumbotron>
+            <table>
+                <tr>
+                <th>Function :</th>
+                </tr>
+            <tr>
+                <td>pieChart(values, no_of_pies, id_name, colors)</td>
+            </tr>
+            <tr>
+                <th>values : JS array that should be collectively to 360 degree</th>
+            </tr>
+            <tr>
+                <td>Here its : values= [200,100,60]</td>
+            </tr>
+            <tr>
+                <th>no_of_pies : no of pie</th>
+            </tr>
+            <tr>
+                <td>Here its : 3</td>
+            </tr>
+            <tr>
+                <th>id_name : Specifying the canvas id on which we have to draw.</th>
+            </tr>
+            <tr>
+                <td>Here its : myCanvas</td>
+            </tr>
+
+            <tr>
+                <th>colors : JS array that should be array of hex colors</th>
+            </tr>
+            <tr>
+                <td>Here its : ["#ffff00", "#cc00cc","#F1001d"]</td>
+            </tr>
+            </table>
+        </div>  
+        </td>
+
+        <td>
+          <canvas id="myCanvas" width="250" height="250" style="border:0px solid #d3d3d3;"></canvas>
+          <script>var values= [200,100,60]; var colors = ["#ffff00", "#cc00cc","#F1001d"]; pieChart(values,3,"myCanvas",colors);</script>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+<!--***********************************************Analyitcs1*****************************************************************-->
+
+
+
+</div>
+
+</body>
+
+</html>
